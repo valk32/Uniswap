@@ -167,7 +167,7 @@ const Home = () => {
                     currentToken ? token.symbol : secondToken?.symbol
                   }`}
                   onClick={() => {
-                    setVal2((val1 * token.price) / firstToken.price);
+                    setVal2((val1 *firstToken.price / token.price));
                     setModalVisible(false);
                   }}
                 >
