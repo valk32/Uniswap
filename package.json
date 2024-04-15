@@ -26,8 +26,13 @@
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
+    "@token-icons/core": "^2.1.0",
+    "@token-icons/react": "^2.1.0",
+    "antd": "^5.16.1",
+    "daisyui": "^4.10.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-crypto-icons": "^1.0.5",
     "react-dom": "^18.2.0",
     "react-error-boundary": "^3.1.4",
     "react-router-dom": "^6.3.0",

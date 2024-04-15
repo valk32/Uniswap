@@ -1,22 +1,15 @@
-import logo from './assets/images/logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import 'antd/dist/reset.css';
+import Home from './pages/Home';
 
-function App() {
+const App = () => {
   return (
-    <div className="app">
-      <header className="app-header">
-        <img src={logo} className="app-logo" alt="logo" />
-        <p className="header">Vite React Starter 💯</p>
-        <p>
-          Vite + React <br />
-          ESLint + Prettier + Stylelint
-          <br />
-          Sass + Emotion + Tailwind
-          <br />
-          Jest + Testing Library
-        </p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
